@@ -1,3 +1,4 @@
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -32,8 +33,30 @@ public class Principal {
 
             // Voltar no codigo pessoa e funcionario para criar getSalario, getCargo e getDataNascimento
         }
+        
+        // 3.4 - Aumentar o salário dos funcionários em 10%
         for(Funcionario funcionario : funcionarios){
-            
+            funcionario.setSalario(funcionario.getSalario().multiply(new BigDecimal("1.1")));
         }
-}
-}
+        // 3.5 - Agrupar os funcionários por função em um MAP
+        
+        // 3.6 - Imprimir os funcionários agrupados por função
+            // 3.7 - 
+            // 3.8 - Imprimir os funcionários que fazem aniversário no mês 10 e 12
+            // 3.9 - Imprimir o funcionário com a maior idade
+            // 3.10 - Imprimir a lista de funcionários por ordem alfabética
+            // 3.11 - Imprimir o total dos salários dos funcionários
+            // 3.12 - Imprimir quantos salários mínimos ganha cada funcionário
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+}       
+            
+            
