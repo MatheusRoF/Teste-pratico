@@ -1,18 +1,16 @@
-## Getting Started
+## Projeto Java: Gestão de Funcionários
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Descrição
+Este projeto em Java implementa a gestão de funcionários de uma indústria, atendando a uma série de requisitos como inserção, remoção, impressão, atualização de dados e agrupamento de funcionários. As principais funcionalidades incluem cálculos salariais, agrupamento por função, ordanação alfabética, entre outros.
 
-## Folder Structure
+### Estrutura do Projeto
+O projeto contém três classes principais:
+1. Pessoa: Representa uma pessoa com atributos básicos como nome e data de nascimento
+2. Funcionário: Estende a classe pessoa e adiciona atributos de um funcionário.
+3. Principal: Contém o método 'main' e as funcionalidades
 
-The workspace contains two folders by default, where:
+O espaço de trabalho contém duas pastas por padrão, onde:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+src: a pasta para manter os arquivos-fonte
+lib: a pasta para manter as dependências
+Enquanto isso, os arquivos compilados serão gerados na pasta bin por padrão.
